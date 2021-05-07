@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background: #e6e6e6;
+    font-family: "poppins","fira code";
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    background: #edf1f6d8;
+}
+.nav_header_main{
+    display: flex;
+    flex-basis: 50%;
+    flex: 1;
+}
+.header_logo{
+    display: flex;
+}
+
+.header_logo img{
+    width: 80px;
+    height: 60px;
+    align-self: center;
+    border-radius: 4px;
+    mix-blend-mode: multiply;
+    box-shadow: 2px 2px 4px #d6d6d6;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links ul li{
+    display: inline-flex;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #222;
+    margin: 0px 10px ;
+}
+.header_login{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+input{
+    margin: 0px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 210px;
+}
+input::placeholder{
+    font-size: 15px;
+    color: #222;
+}
+.inputs button{
+    background: #222;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttons a{
+    color: #222;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+.buttons button{
+    background: #222;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+.section_default{
+    background: #edf1f6d8;
+    margin: 100px auto;
+    width: 30%;
+}
+.section_default h1{
+    color: #222;
+    text-align: center;
+}
+.form_signup{
+    padding: 10px;
+}
+.form_signup input{
+    display: block;
+    border-bottom: 1px solid #222;
+    margin: auto;
+    width: 100%;
+    margin: 10px auto;
+}
+.form_signup button{
+    color: #fff;
+    background: #222;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.login_status{
+    background: #edf1f6d8;
+    margin: 50px auto;
+    text-align: center;
+    width: 50%;
+}
+
