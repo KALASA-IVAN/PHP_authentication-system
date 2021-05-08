@@ -58,6 +58,10 @@ input::placeholder{
     font-size: 15px;
     color: #222;
 }
+.inputs{
+    display: flex;
+    margin-left: 50px;
+}
 .inputs button{
     background: #222;
     padding: 10px;
@@ -66,16 +70,16 @@ input::placeholder{
     border: none;
     border-radius: 4px;
 }
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-}
-.buttons a{
+.inputs a{
     color: #222;
     text-decoration: none;
-    margin: 0px 20px;
+    margin: 8px 20px 0px 20px;
+}
+.buttons{
+    display: flex;
 }
 .buttons button{
+    margin-left: 640px;
     background: #222;
     padding: 10px;
     color: #fff;
